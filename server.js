@@ -1,7 +1,11 @@
 //require express
 const express = require('express');
+const connectDB = require('./config/db');
+
 //initialize app variable
 const app = express();
+//Connect Database
+connectDB();
 
 //creating a single end point
 app.get('/', (req, res) => res.send('API running'));
