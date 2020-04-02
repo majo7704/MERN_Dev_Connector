@@ -19,12 +19,14 @@
   "homepage": "https://github.com/majo7704/MERN_Dev_Connector#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.2.5",
+    "colors": "^1.4.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.0",
+    "mongoose": "^5.9.7",
     "request": "^2.88.2"
   },
   "devDependencies": {
